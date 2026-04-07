@@ -1,0 +1,22 @@
+<environment>
+    <parameter>
+        <key>Browser</key>
+        <value>Chrome</value>
+    </parameter>
+     <parameter>
+        <key>System</key>
+        <value>Window11</value>
+    </parameter>
+    <parameter>
+        <key>Python Version</key>
+        <value>3.10</value>
+    </parameter>
+    <parameter>
+        <key>项目地址</key>
+        <value>http://localhost/ecshop/</value>
+    </parameter>
+    <parameter>
+        <key>作者</key>
+        <value>L7</value>
+    </parameter>
+</environment>

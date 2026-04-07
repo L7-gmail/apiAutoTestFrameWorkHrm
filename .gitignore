@@ -3,23 +3,10 @@
 # ==========================
 
 # 1. 测试报告 / 日志 / 结果文件
-reports/
 report/*
 !report/.gitkeep
-Report/
-test-reports/
-allure-results/
-allure-report/
-html-report/
-xml-report/
-*.html
-*.xml
-*.log
-*.txt
-logs/
 log/*
-output/
-result/
+!log/.gitkeep
 
 # 2. 截图 / 录像 / 测试用例附件
 screenshots/*
@@ -40,26 +27,10 @@ tmp/
 # 3. 测试用例数据 / 临时文件
 data/*
 !data/.gitkeep
-test-data/*.xlsx
-test-data/*.csv
-test-data/*.json
-test-data/*.yaml
-test-data/*.yml
-!test-data/example.*
-!test-data/template.*
-data/temp/
-temp-data/
 
 # 4. 环境配置 / 敏感信息
 config/*
 !config/.gitkeep
-.env
-.env.*
-!.env.example
-config/local.py
-config/secret.py
-settings.local.json
-credentials.json
 
 # 5. Python 自动化测试专用
 __pycache__/
