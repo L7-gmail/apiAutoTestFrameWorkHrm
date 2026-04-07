@@ -1,0 +1,102 @@
+# ==========================
+# 自动化测试脚本 专用忽略规则
+# ==========================
+
+# 1. 测试报告 / 日志 / 结果文件
+reports/
+report/*
+!report/.gitkeep
+Report/
+test-reports/
+allure-results/
+allure-report/
+html-report/
+xml-report/
+*.html
+*.xml
+*.log
+*.txt
+logs/
+log/*
+output/
+result/
+
+# 2. 截图 / 录像 / 测试用例附件
+screenshots/*
+!screenshots/.gitkeep
+screenshot/
+videos/
+video/
+downloads/
+temp/
+tmp/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webm
+*.mp4
+
+# 3. 测试用例数据 / 临时文件
+data/*
+!data/.gitkeep
+test-data/*.xlsx
+test-data/*.csv
+test-data/*.json
+test-data/*.yaml
+test-data/*.yml
+!test-data/example.*
+!test-data/template.*
+data/temp/
+temp-data/
+
+# 4. 环境配置 / 敏感信息
+config/*
+!config/.gitkeep
+.env
+.env.*
+!.env.example
+config/local.py
+config/secret.py
+settings.local.json
+credentials.json
+
+# 5. Python 自动化测试专用
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+.venv/
+virtualenv/
+.pytest_cache/
+.coverage
+htmlcov/
+.pytest/
+.cache/
+
+# 6. 编辑器 / IDE 临时文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# 7. 依赖包 / 构建文件
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# 8. 其他临时文件
+*.bak
+*.backup
+*.tmp
